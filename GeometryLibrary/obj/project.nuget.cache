@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "jWcSFJtcZ/k=",
+  "success": true,
+  "projectFilePath": "/Users/birbik/Documents/ВГУ/6 семестр /ИТ/ReflectionGeometryApp/GeometryLibrary/GeometryLibrary.csproj",
+  "expectedPackageFiles": [
+    "/Users/birbik/.nuget/packages/avalonia/11.2.5/avalonia.11.2.5.nupkg.sha512",
+    "/Users/birbik/.nuget/packages/avalonia.buildservices/0.0.31/avalonia.buildservices.0.0.31.nupkg.sha512",
+    "/Users/birbik/.nuget/packages/avalonia.remote.protocol/11.2.5/avalonia.remote.protocol.11.2.5.nupkg.sha512",
+    "/Users/birbik/.nuget/packages/microcom.runtime/0.11.0/microcom.runtime.0.11.0.nupkg.sha512"
+  ],
+  "logs": []
+}

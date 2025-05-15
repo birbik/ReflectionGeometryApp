@@ -1,0 +1,13 @@
+/Users/birbik/Documents/ВГУ/6 семестр /ИТ/ReflectionGeometryApp/GeometryLibrary/bin/Debug/net9.0/GeometryLibrary.deps.json
+/Users/birbik/Documents/ВГУ/6 семестр /ИТ/ReflectionGeometryApp/GeometryLibrary/bin/Debug/net9.0/GeometryLibrary.dll
+/Users/birbik/Documents/ВГУ/6 семестр /ИТ/ReflectionGeometryApp/GeometryLibrary/bin/Debug/net9.0/GeometryLibrary.pdb
+/Users/birbik/Documents/ВГУ/6 семестр /ИТ/ReflectionGeometryApp/GeometryLibrary/obj/Debug/net9.0/GeometryLibrary.csproj.AssemblyReference.cache
+/Users/birbik/Documents/ВГУ/6 семестр /ИТ/ReflectionGeometryApp/GeometryLibrary/obj/Debug/net9.0/Avalonia/Resources.Inputs.cache
+/Users/birbik/Documents/ВГУ/6 семестр /ИТ/ReflectionGeometryApp/GeometryLibrary/obj/Debug/net9.0/GeometryLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/birbik/Documents/ВГУ/6 семестр /ИТ/ReflectionGeometryApp/GeometryLibrary/obj/Debug/net9.0/GeometryLibrary.AssemblyInfoInputs.cache
+/Users/birbik/Documents/ВГУ/6 семестр /ИТ/ReflectionGeometryApp/GeometryLibrary/obj/Debug/net9.0/GeometryLibrary.AssemblyInfo.cs
+/Users/birbik/Documents/ВГУ/6 семестр /ИТ/ReflectionGeometryApp/GeometryLibrary/obj/Debug/net9.0/GeometryLibrary.csproj.CoreCompileInputs.cache
+/Users/birbik/Documents/ВГУ/6 семестр /ИТ/ReflectionGeometryApp/GeometryLibrary/obj/Debug/net9.0/GeometryLibrary.dll
+/Users/birbik/Documents/ВГУ/6 семестр /ИТ/ReflectionGeometryApp/GeometryLibrary/obj/Debug/net9.0/refint/GeometryLibrary.dll
+/Users/birbik/Documents/ВГУ/6 семестр /ИТ/ReflectionGeometryApp/GeometryLibrary/obj/Debug/net9.0/GeometryLibrary.pdb
+/Users/birbik/Documents/ВГУ/6 семестр /ИТ/ReflectionGeometryApp/GeometryLibrary/obj/Debug/net9.0/ref/GeometryLibrary.dll
