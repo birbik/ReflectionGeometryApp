@@ -1,0 +1,170 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/birbik/Documents/ВГУ/6 семестр /ИТ/ReflectionGeometryApp/GeometryApp/GeometryApp.csproj": {}
+  },
+  "projects": {
+    "/Users/birbik/Documents/ВГУ/6 семестр /ИТ/ReflectionGeometryApp/GeometryApp/GeometryApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/birbik/Documents/ВГУ/6 семестр /ИТ/ReflectionGeometryApp/GeometryApp/GeometryApp.csproj",
+        "projectName": "GeometryApp",
+        "projectPath": "/Users/birbik/Documents/ВГУ/6 семестр /ИТ/ReflectionGeometryApp/GeometryApp/GeometryApp.csproj",
+        "packagesPath": "/Users/birbik/.nuget/packages/",
+        "outputPath": "/Users/birbik/Documents/ВГУ/6 семестр /ИТ/ReflectionGeometryApp/GeometryApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/birbik/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/birbik/Documents/ВГУ/6 семестр /ИТ/ReflectionGeometryApp/GeometryLibrary/GeometryLibrary.csproj": {
+                "projectPath": "/Users/birbik/Documents/ВГУ/6 семестр /ИТ/ReflectionGeometryApp/GeometryLibrary/GeometryLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.2.5, )"
+            },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[11.2.1, )"
+            },
+            "Avalonia.Diagnostics": {
+              "target": "Package",
+              "version": "[11.2.1, )"
+            },
+            "Avalonia.Fonts.Inter": {
+              "target": "Package",
+              "version": "[11.2.1, )"
+            },
+            "Avalonia.ReactiveUI": {
+              "target": "Package",
+              "version": "[11.2.5, )"
+            },
+            "Avalonia.Themes.Fluent": {
+              "target": "Package",
+              "version": "[11.2.1, )"
+            },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.1, )"
+            },
+            "ReactiveUI": {
+              "target": "Package",
+              "version": "[20.1.63, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/birbik/Documents/ВГУ/6 семестр /ИТ/ReflectionGeometryApp/GeometryLibrary/GeometryLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/birbik/Documents/ВГУ/6 семестр /ИТ/ReflectionGeometryApp/GeometryLibrary/GeometryLibrary.csproj",
+        "projectName": "GeometryLibrary",
+        "projectPath": "/Users/birbik/Documents/ВГУ/6 семестр /ИТ/ReflectionGeometryApp/GeometryLibrary/GeometryLibrary.csproj",
+        "packagesPath": "/Users/birbik/.nuget/packages/",
+        "outputPath": "/Users/birbik/Documents/ВГУ/6 семестр /ИТ/ReflectionGeometryApp/GeometryLibrary/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/birbik/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

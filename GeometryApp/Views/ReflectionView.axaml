@@ -1,0 +1,52 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="using:GeometryApp.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="GeometryApp.Views.ReflectionView">
+    <Design.DataContext>
+        <vm:ReflectionViewModel/>
+    </Design.DataContext>
+    
+    <Grid RowDefinitions="Auto,*,Auto" Margin="10">
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Spacing="10">
+            <TextBox Width="400" Watermark="Assembly Path" Text="{Binding AssemblyPath}" IsReadOnly="True"/>
+            <Button Content="Browse..." Click="BrowseButton_Click"/>
+        </StackPanel>
+
+        <Grid Grid.Row="1" ColumnDefinitions="*,*" Margin="0,10">
+            <StackPanel Grid.Column="0" Margin="0,0,5,0">
+                <TextBlock Text="Available Types:" Margin="0,0,0,5"/>
+                <ListBox ItemsSource="{Binding AvailableTypes}"
+                         SelectedItem="{Binding SelectedType}"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" Margin="5,0,0,0">
+                <TextBlock Text="Available Methods:" Margin="0,0,0,5"/>
+                <ListBox ItemsSource="{Binding AvailableMethods}"
+                         SelectedItem="{Binding SelectedMethod}"/>
+            </StackPanel>
+        </Grid>
+
+        <StackPanel Grid.Row="2" Margin="0,10,0,0">
+            <TextBlock Text="Method Parameters:" Margin="0,0,0,5"/>
+            <ItemsControl ItemsSource="{Binding MethodParameters}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate x:DataType="{x:Null}">
+                        <Grid ColumnDefinitions="Auto,*,Auto" Margin="0,2">
+                            <TextBlock Grid.Column="0" Text="{Binding Name}" VerticalAlignment="Center"/>
+                            <TextBox Grid.Column="1" Text="{Binding Value}" Margin="5,0"/>
+                            <TextBlock Grid.Column="2" Text="{Binding Type.Name}" VerticalAlignment="Center"/>
+                        </Grid>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+            <Button Content="Execute Method" 
+                    Click="ExecuteMethod_Click"
+                    HorizontalAlignment="Right"
+                    Margin="0,10,0,0"/>
+            <TextBlock Text="{Binding LastResult}" Margin="0,10,0,0" Foreground="Blue"/>
+        </StackPanel>
+    </Grid>
+</UserControl> 

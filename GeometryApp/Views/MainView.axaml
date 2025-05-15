@@ -1,0 +1,53 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="using:GeometryApp.ViewModels"
+             xmlns:models="using:GeometryApp.Models"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="GeometryApp.Views.MainView">
+    <Design.DataContext>
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+
+    <ScrollViewer>
+        <StackPanel Margin="10">
+            <TextBlock Text="Figures" FontSize="16"/>
+            
+            <ItemsControl ItemsSource="{Binding Figures}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate x:DataType="{x:Null}">
+                        <Border Padding="10" BorderBrush="Gray" Margin="0 5">
+                            <StackPanel>
+                                <TextBlock>
+                                    <TextBlock.Inlines>
+                                        <Run Text="Name: " />
+                                        <Run Text="{Binding DisplayName}" />
+                                    </TextBlock.Inlines>
+                                </TextBlock>
+                                <TextBlock>
+                                    <TextBlock.Inlines>
+                                        <Run Text="Center: " />
+                                        <Run Text="{Binding Center}" />
+                                    </TextBlock.Inlines>
+                                </TextBlock>
+                                <TextBlock>
+                                    <TextBlock.Inlines>
+                                        <Run Text="Area: " />
+                                        <Run Text="{Binding Area}" />
+                                    </TextBlock.Inlines>
+                                </TextBlock>
+                                <TextBlock>
+                                    <TextBlock.Inlines>
+                                        <Run Text="BoundingBox: " />
+                                        <Run Text="{Binding BoundingBoxInfo}" />
+                                    </TextBlock.Inlines>
+                                </TextBlock>   
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl> 
